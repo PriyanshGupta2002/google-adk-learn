@@ -1,10 +1,63 @@
-# Python-generated files
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+*.py[cod]
+*$py.class
+*.so
+.Python
 
 # Virtual environments
-.venv
+.venv/
+venv/
+env/
+ENV/
+
+# UV
+.uv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Type checking and linting
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Google ADK local session / artifacts
+.adk/
+artifacts/
+
+# Temporary files
+tmp/
+temp/
