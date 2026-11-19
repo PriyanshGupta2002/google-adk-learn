@@ -3,6 +3,8 @@
 .env
 .env.*
 !.env.example
+/google_drive/client_secret.json
+/google_drive/token.json
 
 # Python
 __pycache__/
